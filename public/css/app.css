@@ -1,0 +1,27 @@
+table tr th, table tr td{
+	font-size: 1.2rem;
+}
+
+.row{
+	margin:20px 20px 20px 20px;width: 100%;
+}
+
+.glyphicon{
+	font-size: 20px;
+}
+
+.glyphicon-plus{
+	float: right;
+}
+
+a.glyphicon{
+	text-decoration: none;
+}
+
+a.glyphicon-trash{
+	margin-left: 10px;
+}
+
+.none{
+	display: none;
+}
