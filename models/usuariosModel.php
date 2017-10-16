@@ -4,7 +4,7 @@ class UsuariosModel extends Model {
 		parent::__construct();
 	}
 	
-	function getPessoa($id_usuario, $array = false){
+	function getUsuario($id_usuario, $array = false){
 		
 		$statementh = $this->db->prepare('SELECT * FROM usuarios WHERE id_usuario = :id_usuario');
 		$statementh->setFetchMode(PDO::FETCH_ASSOC);
