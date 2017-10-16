@@ -7,7 +7,7 @@ class App {
 		
 		if (empty($url[0])) {
 			require 'controllers/usuarios.php';
-			$controller = new Usuarios();
+			$controller = new UsuariosModel();
 			$controller->loadModel('usuarios');
 			$controller->index();
 			return false;
